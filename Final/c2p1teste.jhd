@@ -1,0 +1,3 @@
+MODULE c2p1teste
+	SUBMODULE circuito2Parte1
+		INSTANCE XLXI_1

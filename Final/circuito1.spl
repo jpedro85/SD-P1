@@ -1,0 +1,19 @@
+[Inputs]
+=Ad[3:0]=
+=Au[3:0]=
+=Bd[3:0]=
+=Bu[3:0]=
+=Cd[3:0]=
+=Cu[3:0]=
+=Dd[3:0]=
+=Du[3:0]=
+[Outputs]
+A
+B
+C
+D
+iguais
+[BiDir]
+[ATTRIBUTES]
+VeriModel circuito1
+

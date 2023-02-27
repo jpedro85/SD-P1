@@ -1,0 +1,11 @@
+[Inputs]
+=A[3:0]=
+=B[3:0]=
+[Outputs]
+maior
+menor
+igual
+[BiDir]
+[ATTRIBUTES]
+VeriModel comaparador2Nbcd
+

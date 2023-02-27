@@ -1,0 +1,300 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : CirciutoTotal.vf
+// /___/   /\     Timestamp : 12/12/2021 17:03:23
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog "C:/Users/Pedro/Desktop/SistemasDigitais/Projeto1 Final/Final/CirciutoTotal.vf" -w "C:/Users/Pedro/Desktop/SistemasDigitais/Projeto1 Final/Final/CirciutoTotal.sch"
+//Design Name: CirciutoTotal
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module ciscuito2p2teste_MUSER_CirciutoTotal(XJ1eJ2, 
+                                            XJ1eJ3, 
+                                            XJ1eJ4, 
+                                            XJ2eJ3, 
+                                            XJ2eJ4, 
+                                            XJ3eJ4, 
+                                            Vitoria);
+
+    input XJ1eJ2;
+    input XJ1eJ3;
+    input XJ1eJ4;
+    input XJ2eJ3;
+    input XJ2eJ4;
+    input XJ3eJ4;
+   output Vitoria;
+   
+   wire XLXN_84;
+   wire XLXN_85;
+   wire XLXN_116;
+   wire XLXN_117;
+   wire XLXN_118;
+   wire XLXN_119;
+   wire XLXN_121;
+   wire XLXN_122;
+   wire XLXN_131;
+   wire XLXN_132;
+   
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_5 (.I(XJ3eJ4), 
+                .O(XLXN_119));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_6 (.I(XJ2eJ3), 
+                .O(XLXN_131));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_7 (.I(XJ1eJ2), 
+                .O(XLXN_132));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_17 (.I(XJ1eJ4), 
+                 .O(XLXN_116));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_18 (.I(XJ1eJ3), 
+                 .O(XLXN_117));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_19 (.I(XJ2eJ4), 
+                 .O(XLXN_118));
+   OR2  XLXI_123 (.I0(XLXN_116), 
+                 .I1(XLXN_117), 
+                 .O(XLXN_84));
+   OR2  XLXI_124 (.I0(XLXN_84), 
+                 .I1(XLXN_118), 
+                 .O(XLXN_85));
+   OR2  XLXI_125 (.I0(XLXN_85), 
+                 .I1(XLXN_119), 
+                 .O(XLXN_121));
+   OR2  XLXI_155 (.I0(XLXN_121), 
+                 .I1(XLXN_131), 
+                 .O(XLXN_122));
+   OR2  XLXI_156 (.I0(XLXN_122), 
+                 .I1(XLXN_132), 
+                 .O(Vitoria));
+endmodule
+`timescale 1ns / 1ps
+
+module CirciutoTotal(Ap, 
+                     Bp, 
+                     Cp, 
+                     Dp, 
+                     J1, 
+                     J2, 
+                     J3, 
+                     J4, 
+                     Vencedor1, 
+                     Vencedor2);
+
+    input [6:0] Ap;
+    input [6:0] Bp;
+    input [6:0] Cp;
+    input [6:0] Dp;
+    input [1:0] J1;
+    input [1:0] J2;
+    input [1:0] J3;
+    input [1:0] J4;
+   output [3:0] Vencedor1;
+   output [3:0] Vencedor2;
+   
+   wire J1bit0;
+   wire J1bit1;
+   wire J2bit0;
+   wire J2bit1;
+   wire J3bit0;
+   wire J3bit1;
+   wire XLXN_42;
+   wire XLXN_43;
+   wire XLXN_72;
+   wire XLXN_73;
+   wire XLXN_145;
+   wire XLXN_146;
+   wire XLXN_147;
+   wire XLXN_179;
+   wire XLXN_180;
+   wire XLXN_181;
+   wire XLXN_186;
+   wire XLXN_187;
+   wire XLXN_192;
+   wire XLXN_193;
+   wire XLXN_196;
+   wire XLXN_197;
+   wire XLXN_198;
+   wire XLXN_199;
+   wire XLXN_200;
+   wire XLXN_201;
+   wire XLXN_402;
+   wire XLXN_403;
+   wire XLXN_404;
+   wire XLXN_405;
+   wire XLXN_406;
+   wire XLXN_407;
+   wire XLXN_491;
+   wire XLXN_492;
+   wire XLXN_493;
+   wire XLXN_494;
+   wire XLXN_495;
+   wire XLXN_496;
+   wire XLXN_525;
+   wire XLXN_526;
+   wire XLXN_527;
+   wire XLXN_528;
+   wire XLXN_529;
+   wire XLXN_530;
+   wire XLXN_1721;
+   wire XLXN_1723;
+   wire XLXN_1739;
+   wire XLXN_1740;
+   wire XLXN_1741;
+   wire XLXN_1742;
+   wire XLXN_1744;
+   wire XLXN_1745;
+   wire XLXN_1746;
+   
+   AND2  XLXI_43 (.I0(XLXN_42), 
+                 .I1(XLXN_43), 
+                 .O(XLXN_145));
+   AND2  XLXI_44 (.I0(XLXN_42), 
+                 .I1(J1bit0), 
+                 .O(XLXN_146));
+   AND2  XLXI_45 (.I0(J1bit1), 
+                 .I1(XLXN_43), 
+                 .O(XLXN_147));
+   INV  XLXI_50 (.I(J1bit0), 
+                .O(XLXN_43));
+   INV  XLXI_51 (.I(J1bit1), 
+                .O(XLXN_42));
+   AND2  XLXI_75 (.I0(XLXN_72), 
+                 .I1(XLXN_73), 
+                 .O(XLXN_179));
+   AND2  XLXI_76 (.I0(XLXN_72), 
+                 .I1(J2bit0), 
+                 .O(XLXN_180));
+   AND2  XLXI_77 (.I0(J2bit1), 
+                 .I1(XLXN_73), 
+                 .O(XLXN_181));
+   INV  XLXI_78 (.I(J2bit0), 
+                .O(XLXN_73));
+   INV  XLXI_79 (.I(J2bit1), 
+                .O(XLXN_72));
+   circuito2Parte1  XLXI_115 (.J10(XLXN_145), 
+                             .J11(XLXN_146), 
+                             .J12(XLXN_147), 
+                             .J20(XLXN_179), 
+                             .J21(XLXN_180), 
+                             .J22(XLXN_181), 
+                             .J30(XLXN_196), 
+                             .J31(XLXN_197), 
+                             .J32(XLXN_198), 
+                             .J40(XLXN_199), 
+                             .J41(XLXN_200), 
+                             .J42(XLXN_201), 
+                             .X0J1eJ2(XLXN_496), 
+                             .X0J1eJ3(XLXN_492), 
+                             .X0J1eJ4(XLXN_491), 
+                             .X0J2eJ3(XLXN_495), 
+                             .X0J2eJ4(XLXN_493), 
+                             .X0J3eJ4(XLXN_494), 
+                             .X1J1eJ2(XLXN_530), 
+                             .X1J1eJ3(XLXN_526), 
+                             .X1J1eJ4(XLXN_525), 
+                             .X1J2eJ3(XLXN_529), 
+                             .X1J2eJ4(XLXN_527), 
+                             .X1J3eJ4(XLXN_528), 
+                             .X2J1eJ2(XLXN_407), 
+                             .X2J1eJ3(XLXN_403), 
+                             .X2J1eJ4(XLXN_402), 
+                             .X2J2eJ3(XLXN_406), 
+                             .X2J2eJ4(XLXN_404), 
+                             .X2J3eJ4(XLXN_405));
+   AND2  XLXI_196 (.I0(XLXN_186), 
+                  .I1(J3bit0), 
+                  .O(XLXN_197));
+   INV  XLXI_197 (.I(J3bit0), 
+                 .O(XLXN_187));
+   INV  XLXI_198 (.I(J3bit1), 
+                 .O(XLXN_186));
+   AND2  XLXI_199 (.I0(XLXN_186), 
+                  .I1(XLXN_187), 
+                  .O(XLXN_196));
+   AND2  XLXI_200 (.I0(J3bit1), 
+                  .I1(XLXN_187), 
+                  .O(XLXN_198));
+   AND2  XLXI_201 (.I0(XLXN_192), 
+                  .I1(XLXN_1723), 
+                  .O(XLXN_200));
+   INV  XLXI_202 (.I(XLXN_1723), 
+                 .O(XLXN_193));
+   INV  XLXI_203 (.I(XLXN_1721), 
+                 .O(XLXN_192));
+   AND2  XLXI_204 (.I0(XLXN_192), 
+                  .I1(XLXN_193), 
+                  .O(XLXN_199));
+   AND2  XLXI_205 (.I0(XLXN_1721), 
+                  .I1(XLXN_193), 
+                  .O(XLXN_201));
+   CIrcuitoentradasjuris  XLXI_725 (.J(J4[1:0]), 
+                                   .S0(XLXN_1723), 
+                                   .S1(XLXN_1721));
+   CIrcuitoentradasjuris  XLXI_861 (.J(J3[1:0]), 
+                                   .S0(J3bit0), 
+                                   .S1(J3bit1));
+   CIrcuitoentradasjuris  XLXI_862 (.J(J2[1:0]), 
+                                   .S0(J2bit0), 
+                                   .S1(J2bit1));
+   CIrcuitoentradasjuris  XLXI_863 (.J(J1[1:0]), 
+                                   .S0(J1bit0), 
+                                   .S1(J1bit1));
+   ciscuito2p2teste_MUSER_CirciutoTotal  XLXI_867 (.XJ1eJ2(XLXN_491), 
+                                                  .XJ1eJ3(XLXN_495), 
+                                                  .XJ1eJ4(XLXN_496), 
+                                                  .XJ2eJ3(XLXN_492), 
+                                                  .XJ2eJ4(XLXN_494), 
+                                                  .XJ3eJ4(XLXN_493), 
+                                                  .Vitoria(XLXN_1746));
+   ciscuito2p2teste_MUSER_CirciutoTotal  XLXI_868 (.XJ1eJ2(XLXN_525), 
+                                                  .XJ1eJ3(XLXN_529), 
+                                                  .XJ1eJ4(XLXN_530), 
+                                                  .XJ2eJ3(XLXN_526), 
+                                                  .XJ2eJ4(XLXN_528), 
+                                                  .XJ3eJ4(XLXN_527), 
+                                                  .Vitoria(XLXN_1745));
+   ciscuito2p2teste_MUSER_CirciutoTotal  XLXI_869 (.XJ1eJ2(XLXN_402), 
+                                                  .XJ1eJ3(XLXN_406), 
+                                                  .XJ1eJ4(XLXN_407), 
+                                                  .XJ2eJ3(XLXN_403), 
+                                                  .XJ2eJ4(XLXN_405), 
+                                                  .XJ3eJ4(XLXN_404), 
+                                                  .Vitoria(XLXN_1744));
+   Circuitosaida  XLXI_871 (.INA(XLXN_1739), 
+                           .INB(XLXN_1740), 
+                           .INC(XLXN_1741), 
+                           .IND(XLXN_1742), 
+                           .IN00(XLXN_1746), 
+                           .IN01(XLXN_1745), 
+                           .IN10(XLXN_1744), 
+                           .V1(Vencedor1[3:0]), 
+                           .V2(Vencedor2[3:0]));
+   Comparador  XLXI_873 (.BusA(Ap[6:0]), 
+                        .BusB(Bp[6:0]), 
+                        .BusC(Cp[6:0]), 
+                        .BusD(Dp[6:0]), 
+                        .A(XLXN_1739), 
+                        .B(XLXN_1740), 
+                        .C(XLXN_1741), 
+                        .D(XLXN_1742));
+endmodule

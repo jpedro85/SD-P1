@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "C:/Users/Francisco MSI/Documents/Escola/Systemas Digitais/Projeto 1/Projeto1/comparador2BEnable.xst" -ofn "C:/Users/Francisco MSI/Documents/Escola/Systemas Digitais/Projeto 1/Projeto1/comparador2BEnable.syr" 
+xst -intstyle ise -ifn "C:/Users/Francisco MSI/Documents/Escola/Systemas Digitais/Projeto 1/Projeto1/comparador2BEnable.xst" -ofn "C:/Users/Francisco MSI/Documents/Escola/Systemas Digitais/Projeto 1/Projeto1/comparador2BEnable.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "comparador2BEnable.ngc" comparador2BEnable.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o comparador2BEnable_map.ncd comparador2BEnable.ngd comparador2BEnable.pcf 
+par -w -intstyle ise -ol high -mt off comparador2BEnable_map.ncd comparador2BEnable.ncd comparador2BEnable.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml comparador2BEnable.twx comparador2BEnable.ncd -o comparador2BEnable.twr comparador2BEnable.pcf 
+vhdtdtfi -lib work {C:/Users/Francisco MSI/Documents/Escola/Systemas Digitais/Projeto 1/Projeto1/comparador2bit.v} -lang verilog -prj Projeto1 -o comparador2BEnable.spl -module comparador2BEnable -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 comparador2BEnable.spl {C:/Users/Francisco MSI/Documents/Escola/Systemas Digitais/Projeto 1/Projeto1/comparador2BEnable.sym} 

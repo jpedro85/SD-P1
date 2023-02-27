@@ -1,0 +1,21 @@
+MODULE CirciutoTotal
+	SUBMODULE circuito2Parte1
+		INSTANCE XLXI_115
+	SUBMODULE CIrcuitoentradasjuris
+		INSTANCE XLXI_725
+	SUBMODULE CIrcuitoentradasjuris
+		INSTANCE XLXI_861
+	SUBMODULE CIrcuitoentradasjuris
+		INSTANCE XLXI_862
+	SUBMODULE CIrcuitoentradasjuris
+		INSTANCE XLXI_863
+	SUBMODULE ciscuito2p2teste
+		INSTANCE XLXI_867
+	SUBMODULE ciscuito2p2teste
+		INSTANCE XLXI_868
+	SUBMODULE ciscuito2p2teste
+		INSTANCE XLXI_869
+	SUBMODULE Circuitosaida
+		INSTANCE XLXI_871
+	SUBMODULE Comparador
+		INSTANCE XLXI_873

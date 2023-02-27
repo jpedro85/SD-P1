@@ -1,0 +1,3 @@
+verilog work "comparador8bit2numeros.v"
+verilog work "comparador16bit4numeros2digitos.v"
+verilog work "circuito1.v"

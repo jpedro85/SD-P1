@@ -1,0 +1,29 @@
+Command line:
+   c2p1teste_c2p1teste_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  63395
+
+Mon Nov 29 23:01:00 2021
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5149.98 Meg
+
+ Total Signals          : 91
+ Total Nets             : 43
+ Total Signal Drivers   : 35
+ Total Blocks           : 4
+ Total Primitive Blocks : 2
+ Total Processes        : 37
+ Total Traceable Variables  : 30
+ Total Scalar Nets and Variables : 135
+Total Line Count : 150
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 4678.12 Meg
+
+Mon Nov 29 23:03:53 2021
+

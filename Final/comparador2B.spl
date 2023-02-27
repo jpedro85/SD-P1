@@ -1,0 +1,11 @@
+[Inputs]
+A
+B
+[Outputs]
+maior
+menor
+igual
+[BiDir]
+[ATTRIBUTES]
+VeriModel comparador2B
+

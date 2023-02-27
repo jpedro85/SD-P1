@@ -1,0 +1,3 @@
+MODULE comparador2bitteste
+	SUBMODULE comparador2B
+		INSTANCE XLXI_2

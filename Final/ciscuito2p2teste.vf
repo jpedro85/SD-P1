@@ -1,0 +1,89 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : ciscuito2p2teste.vf
+// /___/   /\     Timestamp : 11/29/2021 01:07:44
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog "C:/Users/Francisco MSI/Documents/Escola/Systemas Digitais/Projeto 1/projeto1 save/extra/extra/ciscuito2p2teste.vf" -w "C:/Users/Francisco MSI/Documents/Escola/Systemas Digitais/Projeto 1/projeto1 save/extra/extra/ciscuito2p2teste.sch"
+//Design Name: ciscuito2p2teste
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module ciscuito2p2teste(XJ1eJ2, 
+                        XJ1eJ3, 
+                        XJ1eJ4, 
+                        XJ2eJ3, 
+                        XJ2eJ4, 
+                        XJ3eJ4, 
+                        Vitoria);
+
+    input XJ1eJ2;
+    input XJ1eJ3;
+    input XJ1eJ4;
+    input XJ2eJ3;
+    input XJ2eJ4;
+    input XJ3eJ4;
+   output Vitoria;
+   
+   wire XLXN_84;
+   wire XLXN_85;
+   wire XLXN_116;
+   wire XLXN_117;
+   wire XLXN_118;
+   wire XLXN_119;
+   wire XLXN_121;
+   wire XLXN_122;
+   wire XLXN_131;
+   wire XLXN_132;
+   
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_5 (.I(XJ3eJ4), 
+                .O(XLXN_119));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_6 (.I(XJ2eJ3), 
+                .O(XLXN_131));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_7 (.I(XJ1eJ2), 
+                .O(XLXN_132));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_17 (.I(XJ1eJ4), 
+                 .O(XLXN_116));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_18 (.I(XJ1eJ3), 
+                 .O(XLXN_117));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_19 (.I(XJ2eJ4), 
+                 .O(XLXN_118));
+   OR2  XLXI_123 (.I0(XLXN_116), 
+                 .I1(XLXN_117), 
+                 .O(XLXN_84));
+   OR2  XLXI_124 (.I0(XLXN_84), 
+                 .I1(XLXN_118), 
+                 .O(XLXN_85));
+   OR2  XLXI_125 (.I0(XLXN_85), 
+                 .I1(XLXN_119), 
+                 .O(XLXN_121));
+   OR2  XLXI_155 (.I0(XLXN_121), 
+                 .I1(XLXN_131), 
+                 .O(XLXN_122));
+   OR2  XLXI_156 (.I0(XLXN_122), 
+                 .I1(XLXN_132), 
+                 .O(Vitoria));
+endmodule

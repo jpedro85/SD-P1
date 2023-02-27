@@ -1,0 +1,9 @@
+[Inputs]
+=J[1:0]=
+[Outputs]
+S1
+S0
+[BiDir]
+[ATTRIBUTES]
+VeriModel CIrcuitoentradasjuris
+

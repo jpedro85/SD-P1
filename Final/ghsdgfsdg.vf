@@ -1,0 +1,65 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : ghsdgfsdg.vf
+// /___/   /\     Timestamp : 11/24/2021 00:07:18
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog "C:/Users/Francisco MSI/Documents/Escola/Systemas Digitais/Projeto 1/Projeto1/ghsdgfsdg.vf" -w "C:/Users/Francisco MSI/Documents/Escola/Systemas Digitais/Projeto 1/Projeto1/ghsdgfsdg.sch"
+//Design Name: ghsdgfsdg
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module ghsdgfsdg(Ad, 
+                 Au, 
+                 Bd, 
+                 Bu, 
+                 Cd, 
+                 Cu, 
+                 Dd, 
+                 Du, 
+                 A, 
+                 B, 
+                 C, 
+                 D, 
+                 igual);
+
+    input [3:0] Ad;
+    input [3:0] Au;
+    input [3:0] Bd;
+    input [3:0] Bu;
+    input [3:0] Cd;
+    input [3:0] Cu;
+    input [3:0] Dd;
+    input [3:0] Du;
+   output A;
+   output B;
+   output C;
+   output D;
+   output igual;
+   
+   
+   circuito1  XLXI_2 (.Ad(Ad[3:0]), 
+                     .Au(Au[3:0]), 
+                     .Bd(Bd[3:0]), 
+                     .Bu(Bu[3:0]), 
+                     .Cd(Cd[3:0]), 
+                     .Cu(Cu[3:0]), 
+                     .Dd(Dd[3:0]), 
+                     .Du(Du[3:0]), 
+                     .A(A), 
+                     .B(B), 
+                     .C(C), 
+                     .D(D), 
+                     .iguais(igual));
+endmodule

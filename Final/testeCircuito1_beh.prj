@@ -1,0 +1,6 @@
+verilog work "comparador8bit2numeros.v"
+verilog work "comparador16bit4numeros2digitos.v"
+verilog work "circuito1.v"
+verilog work "testeCircuito1.v"
+verilog work "comparadordenumeros.vf"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

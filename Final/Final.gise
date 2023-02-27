@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Final.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CIrcuitoentradasjuris.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="CIrcuitoentradasjuris.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="CIrcuitoentradasjuris.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="CIrcuitoentradasjuris.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="CIrcuitoentradasjuris.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="CIrcuitoentradasjuris_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="CirciutoTotal.cmd_log"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="CirciutoTotal.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="CirciutoTotal.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CirciutoTotal.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="CirciutoTotal.syr"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="CirciutoTotal.vf">
+      <branch xil_pn:name="Implementation"/>
+      <branch xil_pn:name="BehavioralSim"/>
+    </file>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="CirciutoTotal.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CirciutoTotal_CirciutoTotal_sch_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="CirciutoTotal_CirciutoTotal_sch_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="CirciutoTotal_CirciutoTotal_sch_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="CirciutoTotal_drc.vf"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="CirciutoTotal_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CirciutoTotal_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="Circuito2p2.vf"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Circuitodasaida.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Circuitodasaida.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Circuitodasaida.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Circuitosaida.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="Circuitosaida.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Circuitosaida.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Circuitosaida.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Circuitosaida.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Circuitosaida_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Comparador.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="Comparador.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Comparador.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Comparador.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Comparador.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="EXcircuito2Parte1.vf"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="EXcircuito2Parte1_EXcircuito2Parte1_sch_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="EXcircuito2Parte1_drc.vf"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="EXcircuito2parte2.vf"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="EXcircuito2parte2_EXcircuito2parte2_sch_tb_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TesteCircuitoentradajuris_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TesteCiscuitoSaida_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="c2p1teste.vf"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="c2p1teste_c2p1teste_sch_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="c2p1teste_c2p1teste_sch_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="circuito1.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="circuito1.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="circuito1.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="circuito1.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="circuito2Parte1.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="circuito2Parte1.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="circuito2Parte1.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="circuito2Parte1.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="circuito2Parte1.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="circuito2parte2.vf"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="circuito2parte2_drc.vf"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="circuito2total.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="circuito2total.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="circuito2total.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="circuito2total.xst"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="ciscuito2p2teste.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="ciscuito2p2teste.vf">
+      <branch xil_pn:name="Implementation"/>
+      <branch xil_pn:name="BehavioralSim"/>
+    </file>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ciscuito2p2teste_ciscuito2p2teste_sch_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="comaparador2Nbcd.spl"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="comaparador2Nbcd_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="comparador16bit4numeros2digitos.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="comparador16bit4numeros2digitos.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="comparador16bit4numeros2digitos.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="comparador16bit4numeros2digitos.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="comparador16bit4numeros2digitos_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="comparador16bit4numeros2digitos_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="comparador2B.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="comparador2B.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="comparador2B.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="comparador2B.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="comparador2BEnable.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="comparador2BEnable.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="comparador2BEnable.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="comparador2BEnable.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="comparador2BEnable.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="comparador2BEnable.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="comparador2BEnable.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="comparador2BEnable.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="comparador2BEnable.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="comparador2BEnable.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="comparador2BEnable.spl"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="comparador2BEnable.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="comparador2BEnable.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="comparador2BEnable.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="comparador2BEnable.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="comparador2BEnable.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="comparador2BEnable.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="comparador2BEnable.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="comparador2BEnable_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="comparador2BEnable_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="comparador2BEnable_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="comparador2BEnable_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="comparador2BEnable_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="comparador2BEnable_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="comparador2BEnable_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="comparador2BEnable_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="comparador2BEnable_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="comparador2BEnable_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="comparador2BEnable_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="comparador2bitteste.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="comparador2bitteste.cmd_log"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="comparador2bitteste.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="comparador2bitteste.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="comparador2bitteste.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="comparador2bitteste.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="comparador2bitteste.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="comparador2bitteste.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="comparador2bitteste.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="comparador2bitteste.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="comparador2bitteste.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="comparador2bitteste.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="comparador2bitteste.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="comparador2bitteste.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="comparador2bitteste.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="comparador2bitteste.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="comparador2bitteste.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="comparador2bitteste.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="comparador2bitteste.vf">
+      <branch xil_pn:name="Implementation"/>
+      <branch xil_pn:name="BehavioralSim"/>
+    </file>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="comparador2bitteste.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="comparador2bitteste.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="comparador2bitteste_comparador2bitteste_sch_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="comparador2bitteste_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="comparador2bitteste_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="comparador2bitteste_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="comparador2bitteste_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="comparador2bitteste_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="comparador2bitteste_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="comparador2bitteste_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="comparador2bitteste_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="comparador2bitteste_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="comparador2bitteste_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="comparador2bitteste_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="comparador2bitteste_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="comparador2bitteste_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="comparador2bitteste_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="comparador2bitteste_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="comparador8bit2numeros.spl"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="comparador8bit2numeros_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="comparadordenumeros.vf"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="comparadordenumeros_comparadordenumeros_sch_tb_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="comparadordenumeros_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="ghsdgfsdg.vf"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ghsdgfsdg_ghsdgfsdg_sch_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="pl3.vf"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="pl3_pl3_sch_tb_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="teste.vf"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="teste2_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="teste2digitos_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="teste2digitos_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="teste2digitos_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="teste3.vf"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="teste3_teste3_sch_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="testeCircuito1_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testeCircuito1_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="testeCircuito1_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testeComparador_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="teste_teste_sch_tb_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ttttt_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1637592730" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1637592730">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1638226855" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1638226855">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CIrcuitoentradasjuris.v"/>
+      <outfile xil_pn:name="Circuitosaida.v"/>
+      <outfile xil_pn:name="Comparador.v"/>
+      <outfile xil_pn:name="TesteCircuito2p2.v"/>
+      <outfile xil_pn:name="TesteCircuitoentradajuris.v"/>
+      <outfile xil_pn:name="TesteCircuitototal.v"/>
+      <outfile xil_pn:name="TesteCiscuitoSaida.v"/>
+      <outfile xil_pn:name="circuito2Parte1.v"/>
+      <outfile xil_pn:name="cp2teste.v"/>
+      <outfile xil_pn:name="testeComparador.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1638227037" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:start_ts="1638227037">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1638227039" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:start_ts="1638227037">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CirciutoTotal.vf"/>
+      <outfile xil_pn:name="c2p1teste.vf"/>
+      <outfile xil_pn:name="ciscuito2p2teste.vf"/>
+    </transform>
+    <transform xil_pn:end_ts="1638178551" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:start_ts="1638178551">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1638226855" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1638226855">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CIrcuitoentradasjuris.v"/>
+      <outfile xil_pn:name="CirciutoTotal.vf"/>
+      <outfile xil_pn:name="Circuito2p2.vf"/>
+      <outfile xil_pn:name="Circuitosaida.v"/>
+      <outfile xil_pn:name="Comparador.v"/>
+      <outfile xil_pn:name="EXcircuito2Parte1.vf"/>
+      <outfile xil_pn:name="EXcircuito2parte2.vf"/>
+      <outfile xil_pn:name="TesteCircuito2p2.v"/>
+      <outfile xil_pn:name="TesteCircuitoentradajuris.v"/>
+      <outfile xil_pn:name="TesteCircuitototal.v"/>
+      <outfile xil_pn:name="TesteCiscuitoSaida.v"/>
+      <outfile xil_pn:name="c2p1teste.vf"/>
+      <outfile xil_pn:name="circuito2Parte1.v"/>
+      <outfile xil_pn:name="circuito2parte2.vf"/>
+      <outfile xil_pn:name="ciscuito2p2teste.vf"/>
+      <outfile xil_pn:name="comparador2bitteste.vf"/>
+      <outfile xil_pn:name="comparadordenumeros.vf"/>
+      <outfile xil_pn:name="cp2teste.v"/>
+      <outfile xil_pn:name="ghsdgfsdg.vf"/>
+      <outfile xil_pn:name="pl3.vf"/>
+      <outfile xil_pn:name="teste.vf"/>
+      <outfile xil_pn:name="teste3.vf"/>
+      <outfile xil_pn:name="testeComparador.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1638227042" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:start_ts="1638227039">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="CirciutoTotal_CirciutoTotal_sch_tb_beh.prj"/>
+      <outfile xil_pn:name="CirciutoTotal_CirciutoTotal_sch_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1638228920" xil_pn:in_ck="1360647363864876053" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="4311495643089811875" xil_pn:start_ts="1638228920">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="CirciutoTotal_CirciutoTotal_sch_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1637591896" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1637591895">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1639328604" xil_pn:in_ck="-7446358795256646431" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-5836057680971471116" xil_pn:start_ts="1639328602">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CirciutoTotal.vf"/>
+      <outfile xil_pn:name="ciscuito2p2teste.vf"/>
+    </transform>
+    <transform xil_pn:end_ts="1639328497" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-1126943926346608122" xil_pn:start_ts="1639328497">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1637591896" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1637591896">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1639328497" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-3230939000608930890" xil_pn:start_ts="1639328497">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1639328604" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-5609353907947751920" xil_pn:start_ts="1639328604">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1639328604" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="5646409783084917776" xil_pn:start_ts="1639328604">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1639328609" xil_pn:in_ck="-4878943716755327620" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-5183829758966289106" xil_pn:start_ts="1639328604">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CirciutoTotal.jhd"/>
+      <outfile xil_pn:name="CirciutoTotal.lso"/>
+      <outfile xil_pn:name="CirciutoTotal.prj"/>
+      <outfile xil_pn:name="CirciutoTotal.syr"/>
+      <outfile xil_pn:name="CirciutoTotal.xst"/>
+      <outfile xil_pn:name="CirciutoTotal_CirciutoTotal_sch_tb_beh.prj"/>
+      <outfile xil_pn:name="CirciutoTotal_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="comparador2bitteste.ngr"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1637592529" xil_pn:name="TRAN_compileBCD2" xil_pn:start_ts="1637592529">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1638036361" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:start_ts="1638036355">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1638036367" xil_pn:name="TRANEXT_map_spartan6" xil_pn:start_ts="1638036361">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1638036378" xil_pn:name="TRANEXT_par_spartan6" xil_pn:start_ts="1638036367">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1638036378" xil_pn:name="TRAN_postRouteTrce" xil_pn:start_ts="1638036374">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+  </transforms>
+
+</generated_project>

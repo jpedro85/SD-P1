@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Pedro/Desktop/Pastas/trabalhos/UMa/SD/SD_P1_2081421_JoaoPedroAbreu_2126921_RicardoViera/Projeto1 Final/Final/CIrcuitoentradasjuris.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Pedro/Desktop/Pastas/trabalhos/UMa/SD/SD_P1_2081421_JoaoPedroAbreu_2126921_RicardoViera/Projeto1 Final/Final/Circuitosaida.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Pedro/Desktop/Pastas/trabalhos/UMa/SD/SD_P1_2081421_JoaoPedroAbreu_2126921_RicardoViera/Projeto1 Final/Final/Comparador.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Pedro/Desktop/Pastas/trabalhos/UMa/SD/SD_P1_2081421_JoaoPedroAbreu_2126921_RicardoViera/Projeto1 Final/Final/circuito2Parte1.v&quot; into library work</arg>
+</msg>
+
+</messages>
+

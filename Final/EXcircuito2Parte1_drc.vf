@@ -1,0 +1,116 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : EXcircuito2Parte1_drc.vf
+// /___/   /\     Timestamp : 11/27/2021 12:43:24
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -intstyle ise -family spartan6 -verilog EXcircuito2Parte1_drc.vf -w "C:/Users/Francisco MSI/Documents/Escola/Systemas Digitais/Projeto 1/Projeto1/EXcircuito2Parte1.sch"
+//Design Name: EXcircuito2Parte1
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module EXcircuito2Parte1(J10, 
+                         J11, 
+                         J12, 
+                         J20, 
+                         J21, 
+                         J22, 
+                         J30, 
+                         J31, 
+                         J32, 
+                         J40, 
+                         J41, 
+                         J42, 
+                         X0J1eJ2, 
+                         X0J1eJ3, 
+                         X0J1eJ4, 
+                         X0J2eJ3, 
+                         X0J2eJ4, 
+                         X0J3eJ4, 
+                         X1J1eJ2, 
+                         X1J1eJ3, 
+                         X1J1eJ4, 
+                         X1J2eJ3, 
+                         X1J2eJ4, 
+                         X1J3eJ4, 
+                         X2J1eJ2, 
+                         X2J1eJ3, 
+                         X2J1eJ4, 
+                         X2J2eJ3, 
+                         X2J2eJ4, 
+                         X2J3eJ4);
+
+    input J10;
+    input J11;
+    input J12;
+    input J20;
+    input J21;
+    input J22;
+    input J30;
+    input J31;
+    input J32;
+    input J40;
+    input J41;
+    input J42;
+   output X0J1eJ2;
+   output X0J1eJ3;
+   output X0J1eJ4;
+   output X0J2eJ3;
+   output X0J2eJ4;
+   output X0J3eJ4;
+   output X1J1eJ2;
+   output X1J1eJ3;
+   output X1J1eJ4;
+   output X1J2eJ3;
+   output X1J2eJ4;
+   output X1J3eJ4;
+   output X2J1eJ2;
+   output X2J1eJ3;
+   output X2J1eJ4;
+   output X2J2eJ3;
+   output X2J2eJ4;
+   output X2J3eJ4;
+   
+   
+   circuito2Parte1  XLXI_1 (.J10(J10), 
+                           .J11(J11), 
+                           .J12(J12), 
+                           .J20(J20), 
+                           .J21(J21), 
+                           .J22(J22), 
+                           .J30(J30), 
+                           .J31(J31), 
+                           .J32(J32), 
+                           .J40(J40), 
+                           .J41(J41), 
+                           .J42(J42), 
+                           .X0J1eJ2(X0J1eJ2), 
+                           .X0J1eJ3(X0J1eJ3), 
+                           .X0J1eJ4(X0J1eJ4), 
+                           .X0J2eJ3(X0J2eJ3), 
+                           .X0J2eJ4(X0J2eJ4), 
+                           .X0J3eJ4(X0J3eJ4), 
+                           .X1J1eJ2(X1J1eJ2), 
+                           .X1J1eJ3(X1J1eJ3), 
+                           .X1J1eJ4(X1J1eJ4), 
+                           .X1J2eJ3(X1J2eJ3), 
+                           .X1J2eJ4(X1J2eJ4), 
+                           .X1J3eJ4(X1J3eJ4), 
+                           .X2J1eJ2(X2J1eJ2), 
+                           .X2J1eJ3(X2J1eJ3), 
+                           .X2J1eJ4(X2J1eJ4), 
+                           .X2J2eJ3(X2J2eJ3), 
+                           .X2J2eJ4(X2J2eJ4), 
+                           .X2J3eJ4(X2J3eJ4));
+endmodule

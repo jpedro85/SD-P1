@@ -1,0 +1,12 @@
+[Inputs]
+A
+B
+E
+[Outputs]
+maior
+menor
+igual
+[BiDir]
+[ATTRIBUTES]
+VeriModel comparador2BEnable
+

@@ -1,0 +1,47 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : teste.vf
+// /___/   /\     Timestamp : 11/23/2021 22:14:44
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog "C:/Users/Francisco MSI/Documents/Escola/Systemas Digitais/Projeto 1/Projeto1/teste.vf" -w "C:/Users/Francisco MSI/Documents/Escola/Systemas Digitais/Projeto 1/Projeto1/teste.sch"
+//Design Name: teste
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module teste(A1, 
+             A2, 
+             B1, 
+             B2, 
+             igual, 
+             maior, 
+             menor);
+
+    input [3:0] A1;
+    input [3:0] A2;
+    input [3:0] B1;
+    input [3:0] B2;
+   output igual;
+   output maior;
+   output menor;
+   
+   
+   comparador16bit4numeros2digitos  XLXI_1 (.A1(A1[3:0]), 
+                                           .A2(A2[3:0]), 
+                                           .B1(B1[3:0]), 
+                                           .B2(B2[3:0]), 
+                                           .igual(igual), 
+                                           .maior(maior), 
+                                           .menor(menor));
+endmodule

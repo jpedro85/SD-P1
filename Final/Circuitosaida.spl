@@ -1,0 +1,15 @@
+[Inputs]
+INA
+INB
+INC
+IND
+IN00
+IN01
+IN10
+[Outputs]
+=V1[3:0]=
+=V2[3:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel Circuitosaida
+

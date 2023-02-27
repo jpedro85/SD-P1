@@ -1,0 +1,153 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : pl3.vf
+// /___/   /\     Timestamp : 11/25/2021 23:53:39
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog "C:/Users/Francisco MSI/Documents/Escola/Systemas Digitais/Projeto 1/Projeto1/pl3.vf" -w "C:/Users/Francisco MSI/Documents/Escola/Systemas Digitais/Projeto 1/Projeto1/pl3.sch"
+//Design Name: pl3
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale  100 ps / 10 ps
+
+module M4_1E_HXILINX_pl3 (O, D0, D1, D2, D3, E, S0, S1);
+    
+
+   output O;
+
+   input  D0;
+   input  D1;
+   input  D2;
+   input  D3;
+   input  E;
+   input  S0;
+   input  S1;
+
+   reg O;
+
+   always @ ( D0 or D1 or D2 or D3 or E or S0 or S1)
+   begin
+      if(!E)
+      O <= 1'b0;
+      else 
+      begin
+        case({S1,S0})
+        2'b00 : O <= D0;
+        2'b01 : O <= D1;
+        2'b10 : O <= D2;
+        2'b11 : O <= D3;
+        endcase
+      end
+   end
+    
+endmodule
+`timescale 1ns / 1ps
+
+module pl3(A, 
+           B, 
+           C, 
+           P0, 
+           P1, 
+           sa, 
+           sb, 
+           sc, 
+           sd, 
+           se, 
+           sf, 
+           sg);
+
+    input A;
+    input B;
+    input C;
+    input P0;
+    input P1;
+   output sa;
+   output sb;
+   output sc;
+   output sd;
+   output se;
+   output sf;
+   output sg;
+   
+   wire XLXN_91;
+   wire XLXN_92;
+   wire XLXN_95;
+   wire XLXN_131;
+   
+   (* HU_SET = "XLXI_35_0" *) 
+   M4_1E_HXILINX_pl3  XLXI_35 (.D0(P0), 
+                              .D1(B), 
+                              .D2(P0), 
+                              .D3(XLXN_131), 
+                              .E(P1), 
+                              .S0(C), 
+                              .S1(A), 
+                              .O(sb));
+   (* HU_SET = "XLXI_36_1" *) 
+   M4_1E_HXILINX_pl3  XLXI_36 (.D0(P0), 
+                              .D1(P1), 
+                              .D2(XLXN_131), 
+                              .D3(P0), 
+                              .E(P1), 
+                              .S0(C), 
+                              .S1(A), 
+                              .O(sa));
+   (* HU_SET = "XLXI_37_2" *) 
+   M4_1E_HXILINX_pl3  XLXI_37 (.D0(P0), 
+                              .D1(XLXN_131), 
+                              .D2(XLXN_131), 
+                              .D3(B), 
+                              .E(P1), 
+                              .S0(C), 
+                              .S1(A), 
+                              .O(sd));
+   (* HU_SET = "XLXI_38_3" *) 
+   M4_1E_HXILINX_pl3  XLXI_38 (.D0(B), 
+                              .D1(P0), 
+                              .D2(P1), 
+                              .D3(B), 
+                              .E(P1), 
+                              .S0(C), 
+                              .S1(A), 
+                              .O(sf));
+   (* HU_SET = "XLXI_41_4" *) 
+   M4_1E_HXILINX_pl3  XLXI_41 (.D0(P0), 
+                              .D1(XLXN_131), 
+                              .D2(P1), 
+                              .D3(P1), 
+                              .E(P1), 
+                              .S0(C), 
+                              .S1(A), 
+                              .O(se));
+   (* HU_SET = "XLXI_42_5" *) 
+   M4_1E_HXILINX_pl3  XLXI_42 (.D0(XLXN_131), 
+                              .D1(P0), 
+                              .D2(XLXN_131), 
+                              .D3(B), 
+                              .E(P1), 
+                              .S0(C), 
+                              .S1(A), 
+                              .O(sg));
+   AND2  XLXI_57 (.I0(B), 
+                 .I1(XLXN_95), 
+                 .O(sc));
+   AND2  XLXI_58 (.I0(XLXN_91), 
+                 .I1(XLXN_92), 
+                 .O(XLXN_95));
+   INV  XLXI_59 (.I(C), 
+                .O(XLXN_91));
+   INV  XLXI_60 (.I(A), 
+                .O(XLXN_92));
+   INV  XLXI_65 (.I(B), 
+                .O(XLXN_131));
+endmodule

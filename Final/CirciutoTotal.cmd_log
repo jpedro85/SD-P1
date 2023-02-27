@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Pedro/Desktop/SistemasDigitais/Projeto1 Final/Final/CirciutoTotal.xst" -ofn "C:/Users/Pedro/Desktop/SistemasDigitais/Projeto1 Final/Final/CirciutoTotal.syr" 

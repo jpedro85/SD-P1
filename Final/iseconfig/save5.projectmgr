@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="save5" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/CirciutoTotal C:|Users|Francisco MSI|Documents|Escola|Systemas Digitais|Projeto 1|projeto1 save|save5|save5|CirciutoTotal.sch</ClosedNode>
+         <ClosedNode>/EXcircuito2Parte1 C:|Users|Francisco MSI|Documents|Escola|Systemas Digitais|Projeto 1|projeto1 save|save5|save5|EXcircuito2Parte1.sch</ClosedNode>
+         <ClosedNode>/EXcircuito2parte2 C:|Users|Francisco MSI|Documents|Escola|Systemas Digitais|Projeto 1|projeto1 save|save5|save5|EXcircuito2parte2.sch</ClosedNode>
+         <ClosedNode>/comaparador2Nbcd C:|Users|Francisco MSI|Documents|Escola|Systemas Digitais|Projeto 1|projeto1 save|save5|save5|comaparador2Nbcd.v</ClosedNode>
+         <ClosedNode>/comparador2bitteste C:|Users|Francisco MSI|Documents|Escola|Systemas Digitais|Projeto 1|projeto1 save|save5|save5|comparador2bitteste.sch</ClosedNode>
+         <ClosedNode>/ghsdgfsdg C:|Users|Francisco MSI|Documents|Escola|Systemas Digitais|Projeto 1|projeto1 save|save5|save5|ghsdgfsdg.sch</ClosedNode>
+         <ClosedNode>/teste C:|Users|Francisco MSI|Documents|Escola|Systemas Digitais|Projeto 1|projeto1 save|save5|save5|teste.sch</ClosedNode>
+         <ClosedNode>/teste3 C:|Users|Francisco MSI|Documents|Escola|Systemas Digitais|Projeto 1|projeto1 save|save5|save5|teste3.sch</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>CirciutoTotal (C:/Users/Francisco MSI/Documents/Escola/Systemas Digitais/Projeto 1/projeto1 save/save5/save5/CirciutoTotal.sch)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000150000000020000000000000000000000000200000064ffffffff000000810000000300000002000001500000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>CirciutoTotal (C:/Users/Francisco MSI/Documents/Escola/Systemas Digitais/Projeto 1/projeto1 save/save5/save5/CirciutoTotal.sch)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a9000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000392000000040101000100000000000000000000000064ffffffff000000810000000000000004000000cb00000001000000000000004a0000000100000000000000660000000100000000000002170000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>CirciutoTotal.sch</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a9000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a9000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/CirciutoTotal_CirciutoTotal_sch_tb C:|Users|Francisco MSI|Documents|Escola|Systemas Digitais|Projeto 1|projeto1 save|save5|save5|TesteCircuitototal.v</ClosedNode>
+         <ClosedNode>/EXcircuito2Parte1_EXcircuito2Parte1_sch_tb C:|Users|Francisco MSI|Documents|Escola|Systemas Digitais|Projeto 1|projeto1 save|save5|save5|Texcircuito2parte1.v</ClosedNode>
+         <ClosedNode>/EXcircuito2parte2_EXcircuito2parte2_sch_tb C:|Users|Francisco MSI|Documents|Escola|Systemas Digitais|Projeto 1|projeto1 save|save5|save5|Texcircuito2parte2.v/UUT - EXcircuito2parte2</ClosedNode>
+         <ClosedNode>/TesteCiscuitoSaida C:|Users|Francisco MSI|Documents|Escola|Systemas Digitais|Projeto 1|projeto1 save|save5|save5|TesteCiscuitoSaida.v</ClosedNode>
+         <ClosedNode>/comparador2bitteste_comparador2bitteste_sch_tb C:|Users|Francisco MSI|Documents|Escola|Systemas Digitais|Projeto 1|projeto1 save|save5|save5|comparador2bitverilogteste.v</ClosedNode>
+         <ClosedNode>/ghsdgfsdg_ghsdgfsdg_sch_tb C:|Users|Francisco MSI|Documents|Escola|Systemas Digitais|Projeto 1|projeto1 save|save5|save5|dgsfdhsfdg.v</ClosedNode>
+         <ClosedNode>/pl3_pl3_sch_tb C:|Users|Francisco MSI|Documents|Escola|Systemas Digitais|Projeto 1|projeto1 save|save5|save5|lll.v</ClosedNode>
+         <ClosedNode>/teste2 C:|Users|Francisco MSI|Documents|Escola|Systemas Digitais|Projeto 1|projeto1 save|save5|save5|teste2.v</ClosedNode>
+         <ClosedNode>/teste3_teste3_sch_tb C:|Users|Francisco MSI|Documents|Escola|Systemas Digitais|Projeto 1|projeto1 save|save5|save5|teste33.v</ClosedNode>
+         <ClosedNode>/teste3_teste3_sch_tb C:|Users|Francisco MSI|Documents|Escola|Systemas Digitais|Projeto 1|projeto1 save|save5|save5|testedocomp2digitos.v</ClosedNode>
+         <ClosedNode>/testeCircuito1 C:|Users|Francisco MSI|Documents|Escola|Systemas Digitais|Projeto 1|projeto1 save|save5|save5|testeCircuito1.v</ClosedNode>
+         <ClosedNode>/testeComparador C:|Users|Francisco MSI|Documents|Escola|Systemas Digitais|Projeto 1|projeto1 save|save5|save5|testeComparador.v</ClosedNode>
+         <ClosedNode>/teste_teste_sch_tb C:|Users|Francisco MSI|Documents|Escola|Systemas Digitais|Projeto 1|projeto1 save|save5|save5|digitos2.v</ClosedNode>
+         <ClosedNode>/ttttt C:|Users|Francisco MSI|Documents|Escola|Systemas Digitais|Projeto 1|projeto1 save|save5|save5|ttttt.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>CirciutoTotal_CirciutoTotal_sch_tb (C:/Users/Francisco MSI/Documents/Escola/Systemas Digitais/Projeto 1/projeto1 save/save5/save5/TesteCircuitototal.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001f2000000020000000000000000000000000200000064ffffffff000000810000000300000002000001f20000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>CirciutoTotal_CirciutoTotal_sch_tb (C:/Users/Francisco MSI/Documents/Escola/Systemas Digitais/Projeto 1/projeto1 save/save5/save5/TesteCircuitototal.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a9000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a9000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <CopyAdditionalFiles/>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>ISim Simulator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a9000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

@@ -1,0 +1,41 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : comparador2bitteste.vf
+// /___/   /\     Timestamp : 11/23/2021 22:19:20
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog "C:/Users/Francisco MSI/Documents/Escola/Systemas Digitais/Projeto 1/Projeto1/comparador2bitteste.vf" -w "C:/Users/Francisco MSI/Documents/Escola/Systemas Digitais/Projeto 1/Projeto1/comparador2bitteste.sch"
+//Design Name: comparador2bitteste
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module comparador2bitteste(A, 
+                           B, 
+                           Igual, 
+                           Maior, 
+                           Menor);
+
+    input A;
+    input B;
+   output Igual;
+   output Maior;
+   output Menor;
+   
+   
+   comparador2B  XLXI_2 (.A(A), 
+                        .B(B), 
+                        .igual(Igual), 
+                        .maior(Maior), 
+                        .menor(Menor));
+endmodule

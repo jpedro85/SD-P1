@@ -1,0 +1,13 @@
+[Inputs]
+=A1[3:0]=
+=B1[3:0]=
+=A2[3:0]=
+=B2[3:0]=
+[Outputs]
+maior
+menor
+igual
+[BiDir]
+[ATTRIBUTES]
+VeriModel comparador16bit4numeros2digitos
+

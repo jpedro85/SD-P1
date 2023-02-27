@@ -1,0 +1,14 @@
+[Inputs]
+=BusA[6:0]=
+=BusB[6:0]=
+=BusC[6:0]=
+=BusD[6:0]=
+[Outputs]
+A
+B
+C
+D
+[BiDir]
+[ATTRIBUTES]
+VeriModel Comparador
+

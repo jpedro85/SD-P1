@@ -1,0 +1,3 @@
+verilog isim_temp "comparador16bit4numeros2digitos.v"
+verilog isim_temp "comparadordenumeros.vf"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
